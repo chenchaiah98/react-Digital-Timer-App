@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .app-container {
   display: flex;
   flex-direction: column;
@@ -237,4 +238,106 @@
   border-radius: 8px;
   margin: 0px;
   padding: 8px;
+=======
+/* Write your CSS here */
+.App-container {
+  background: linear-gradient(to Right, #defafe, #cffcf1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-container {
+  display: flex;
+  min-height: 100vh;
+}
+.timer-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-width: 750px;
+  position: relative;
+  margin: 0px 20px;
+}
+.display-time {
+  background: #ffff;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.buttons-container {
+  min-width: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.start-pause-button-container {
+  display: flex;
+  flex-shrink: 1;
+}
+.button {
+  text-align: center;
+  background: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: inline;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.button-text {
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointerd;
+}
+.img-container {
+  margin-left: 20px;
+}
+.button-img {
+  width: 30px;
+  margin-left: 10px;
+}
+.button-text {
+  margin: 0px 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.set-time-limit-container {
+  display: flex;
+}
+.user-enter-time {
+  width: 70px;
+  height: 30px;
+  text-align: center;
+  background: #00d9f5;
+  margin: 0px 10px;
+  margin-top: 5px;
+}
+.timer-text {
+  font-size: 20px;
+  font-weight: 600;
+}
+.user-enter-time p {
+  margin-top: 2px;
+}
+.plus-minus-btn {
+  font-size: 35px;
+  background: transparent;
+  outline: none;
+  border: none;
+  font-weight: 500;
+>>>>>>> 3180345584e1e620d112d440f61ebced7629f0e0
 }
